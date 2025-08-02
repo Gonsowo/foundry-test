@@ -1,0 +1,14 @@
+{
+  "id": "navigation‑rules",
+  "name": "Navigation Rules",
+  "title": "Reglas de Navegación",
+  "description": "Módulo para manejar Orientar, Forrajeo, Mantener el ánimo, Ayuda desde Token Control.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.13.0",
+  "compatibleCoreVersion": "0.13.*",
+  "scripts": ["scripts/main.js"],
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
+  "lang": []
+}

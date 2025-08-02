@@ -1,0 +1,22 @@
+<form>
+  <div class="form-group">
+    <h2>Reglas (usos hoy: {{hoy}})</h2>
+    {{#each rules}}
+      <button type="button"
+              class="btn-rule"
+              data-key="{{key}}"
+              style="display:block;margin:5px 0;"
+              {{#unless disponible}}disabled{{/unless}}>
+        {{label}} — {{usado}}/{{max}} usos
+        {{#if dc}} (DC {{dc}}){{/if}}
+      </button>
+    {{/each}}
+  </div>
+  {{#if canReset}}
+    <div class="form-group" style="margin-top:15px;">
+      <button type="button" class="btn-reset" style="background:#a00;color:#fff;">
+        🔄 Reset diario de usos (GM)
+      </button>
+    </div>
+  {{/if}}
+</form>
