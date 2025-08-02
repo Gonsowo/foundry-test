@@ -152,6 +152,7 @@ Hooks.once("init", () => {
     name: "Mostrar botón de navegación",
     hint: "Agregar un botón a la barra de escena para abrir la interfaz.",
     default: true,
+    config: true,
     type: Boolean,
     scope: "world"
   });
