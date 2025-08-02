@@ -4,6 +4,8 @@
   "title": "Reglas de Navegación",
   "description": "Módulo para manejar Orientar, Forrajeo, Mantener el ánimo, Ayuda desde Token Control.",
   "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/Gonsowo/foundry-test/refs/tags/0.1/module.json",
+  "download": "https://github.com/Gonsowo/foundry-test/archive/refs/tags/0.1.zip",
   "minimumCoreVersion": "0.13.0",
   "compatibleCoreVersion": "0.13.*",
   "scripts": ["scripts/main.js"],
